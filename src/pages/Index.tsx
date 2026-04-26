@@ -6,7 +6,7 @@ import serviceSofa from "@/assets/service-sofa.jpg";
 import serviceMattress from "@/assets/service-mattress.jpg";
 import serviceRugs from "@/assets/service-rugs.jpg";
 
-const WHATSAPP = "https://wa.me/5511000000000?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20higieniza%C3%A7%C3%A3o.";
+const WHATSAPP = "https://wa.me/5511978659024?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20de%20higieniza%C3%A7%C3%A3o.";
 
 const services = [
   { icon: Car, title: "Higienização Automotiva", desc: "Bancos, teto, painel e carpetes 100% higienizados com extração profunda.", img: heroCar },
@@ -32,7 +32,7 @@ const Index = () => {
             <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center shadow-glow">
               <Droplets className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-display text-xl font-bold tracking-tight" style={{ fontFamily: 'Playfair Display' }}>Pure<span className="text-gradient-gold">Clean</span></span>
+            <span className="font-display text-xl font-bold tracking-tight" style={{ fontFamily: 'Playfair Display' }}>Thiago Estética <span className="text-gradient-gold">&</span></span>
           </div>
           <nav className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
             <a href="#servicos" className="hover:text-foreground transition-colors">Serviços</a>
@@ -78,7 +78,7 @@ const Index = () => {
 
             <div className="flex items-center gap-8 mt-12 pt-8 border-t border-border/50">
               <div>
-                <div className="text-3xl font-black text-gradient-gold">+1.200</div>
+                <div className="text-3xl font-black text-gradient-gold">+200</div>
                 <div className="text-xs text-muted-foreground uppercase tracking-wider">Clientes felizes</div>
               </div>
               <div>
@@ -100,7 +100,7 @@ const Index = () => {
                   <CheckCircle2 className="w-6 h-6 text-primary" />
                   <div>
                     <div className="font-semibold">Resultado Garantido</div>
-                    <div className="text-xs text-muted-foreground">Equipamento profissional Karcher</div>
+                    <div className="text-xs text-muted-foreground">Equipamento profissional de alta performance</div>
                   </div>
                 </div>
               </div>
@@ -194,7 +194,7 @@ const Index = () => {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-primary-glow flex items-center justify-center shadow-glow">
                 <Droplets className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-xl font-bold" style={{ fontFamily: 'Playfair Display' }}>Pure<span className="text-gradient-gold">Clean</span></span>
+              <span className="text-xl font-bold" style={{ fontFamily: 'Playfair Display' }}>Thiago Estética <span className="text-gradient-gold">&</span></span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">Higienização profissional com excelência. Renovamos automóveis, estofados e ambientes com cuidado e precisão.</p>
           </div>
@@ -230,7 +230,7 @@ const Index = () => {
         </div>
 
         <div className="container mt-16 pt-8 border-t border-border/50 flex flex-col md:flex-row justify-between gap-4 text-xs text-muted-foreground">
-          <span>© {new Date().getFullYear()} PureClean Higienização. Todos os direitos reservados.</span>
+          <span>© {new Date().getFullYear()} Thiago Estética & Higienização. Todos os direitos reservados.</span>
           <span>Ipiranga · São Paulo · SP</span>
         </div>
       </footer>
